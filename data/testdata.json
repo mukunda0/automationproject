@@ -1,0 +1,118 @@
+{
+  "contact_us": {
+    "name": "Test Contact",
+    "email": "contact@test.com",
+    "subject": "Test Subject - Inquiry",
+    "message": "This is a test message for contact us form. Please review and confirm receipt.",
+    "upload_filename": "test_file.txt"
+  },
+  "payment_details": {
+    "name_on_card": "Test User",
+    "card_number": "4532015112830366",
+    "cvc": "123",
+    "expiry_month": "12",
+    "expiry_year": "2027"
+  },
+  "checkout_comment": "Please deliver between 10 AM to 5 PM on weekdays only. Call before delivery.",
+  "subscription_emails": [
+    "test1@example.com",
+    "test2@example.com",
+    "subscriber@test.com"
+  ],
+  "urls": {
+    "base_url": "https://automationexercise.com",
+    "home": "/",
+    "login": "/login",
+    "products": "/products",
+    "cart": "/view_cart",
+    "contact_us": "/contact_us",
+    "test_cases": "/test_cases"
+  },
+  "messages": {
+    "account_created": "ACCOUNT CREATED!",
+    "account_deleted": "ACCOUNT DELETED!",
+    "logged_in_as": "Logged in as",
+    "email_exists": "Email Address already exist!",
+    "invalid_credentials": "Your email or password is incorrect!",
+    "subscription_success": "You have been successfully subscribed!",
+    "contact_success": "Success! Your details have been submitted successfully.",
+    "review_success": "Thank you for your review.",
+    "order_placed": "Congratulations! Your order has been confirmed!"
+  },
+  "scroll_tests": {
+    "full_fledged_text": "Full-Fledged practice website for Automation Engineers",
+    "subscription_text": "SUBSCRIPTION"
+  },
+  "api_test_data": {
+    "valid_login": {
+      "email": "testapi@example.com",
+      "password": "Test@123"
+    },
+    "invalid_login": {
+      "email": "invalid@test.com",
+      "password": "wrongpass"
+    },
+    "search_product": {
+      "search_product": "top"
+    },
+    "create_account": {
+      "name": "API User",
+      "email": "apiuser@test.com",
+      "password": "ApiPass@123",
+      "title": "Mr",
+      "birth_date": "15",
+      "birth_month": "6",
+      "birth_year": "1990",
+      "firstname": "API",
+      "lastname": "User",
+      "company": "Test Corp",
+      "address1": "123 Test St",
+      "address2": "Suite 100",
+      "country": "India",
+      "zipcode": "600001",
+      "state": "Tamil Nadu",
+      "city": "Chennai",
+      "mobile_number": "9876543210"
+    },
+    "update_account": {
+      "name": "Updated Name",
+      "email": "updated@test.com",
+      "password": "Updated@123",
+      "title": "Mrs",
+      "birth_date": "20",
+      "birth_month": "8",
+      "birth_year": "1995",
+      "firstname": "Updated",
+      "lastname": "User",
+      "company": "New Corp",
+      "address1": "456 New St",
+      "address2": "Floor 2",
+      "country": "India",
+      "zipcode": "600002",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "mobile_number": "9988776655"
+    }
+  },
+  "expected_response_codes": {
+    "success": 200,
+    "created": 201,
+    "bad_request": 400,
+    "unauthorized": 401,
+    "not_found": 404,
+    "method_not_allowed": 405
+  },
+  "expected_messages": {
+    "products_list_success": "Products list fetched successfully",
+    "brands_list_success": "Brands list fetched successfully",
+    "search_success": "Product found successfully",
+    "search_missing_param": "Bad request, search_product parameter is missing in POST request.",
+    "login_success": "User exists!",
+    "login_missing_email": "Bad request, email or password parameter is missing in POST request.",
+    "login_invalid": "User not found!",
+    "user_created": "User created!",
+    "user_deleted": "Account deleted!",
+    "user_updated": "User updated!",
+    "method_not_supported": "This request method is not supported."
+  }
+}

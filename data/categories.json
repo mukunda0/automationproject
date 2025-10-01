@@ -1,0 +1,89 @@
+{
+  "categories": [
+    {
+      "name": "Women",
+      "subcategories": [
+        {
+          "name": "Dress",
+          "id": 1,
+          "url_segment": "1"
+        },
+        {
+          "name": "Tops",
+          "id": 2,
+          "url_segment": "2"
+        },
+        {
+          "name": "Saree",
+          "id": 7,
+          "url_segment": "7"
+        }
+      ]
+    },
+    {
+      "name": "Men",
+      "subcategories": [
+        {
+          "name": "Tshirts",
+          "id": 3,
+          "url_segment": "3"
+        },
+        {
+          "name": "Jeans",
+          "id": 6,
+          "url_segment": "6"
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "subcategories": [
+        {
+          "name": "Dress",
+          "id": 4,
+          "url_segment": "4"
+        },
+        {
+          "name": "Tops & Shirts",
+          "id": 5,
+          "url_segment": "5"
+        }
+      ]
+    }
+  ],
+  "test_scenarios": [
+    {
+      "category": "Women",
+      "subcategory": "Dress",
+      "expected_heading": "WOMEN - DRESS PRODUCTS"
+    },
+    {
+      "category": "Women",
+      "subcategory": "Tops",
+      "expected_heading": "WOMEN - TOPS PRODUCTS"
+    },
+    {
+      "category": "Men",
+      "subcategory": "Tshirts",
+      "expected_heading": "MEN - TSHIRTS PRODUCTS"
+    },
+    {
+      "category": "Men",
+      "subcategory": "Jeans",
+      "expected_heading": "MEN - JEANS PRODUCTS"
+    },
+    {
+      "category": "Kids",
+      "subcategory": "Dress",
+      "expected_heading": "KIDS - DRESS PRODUCTS"
+    }
+  ],
+  "navigation_tests": [
+    {
+      "from_category": "Women",
+      "from_subcategory": "Dress",
+      "to_category": "Men",
+      "to_subcategory": "Tshirts"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "available_brands": [
+    {
+      "id": 1,
+      "name": "Polo",
+      "slug": "Polo"
+    },
+    {
+      "id": 2,
+      "name": "H&M",
+      "slug": "H&M"
+    },
+    {
+      "id": 3,
+      "name": "Madame",
+      "slug": "Madame"
+    },
+    {
+      "id": 4,
+      "name": "Mast & Harbour",
+      "slug": "Mast & Harbour"
+    },
+    {
+      "id": 5,
+      "name": "Babyhug",
+      "slug": "Babyhug"
+    },
+    {
+      "id": 6,
+      "name": "Allen Solly Junior",
+      "slug": "Allen Solly Junior"
+    },
+    {
+      "id": 7,
+      "name": "Kookie Kids",
+      "slug": "Kookie Kids"
+    },
+    {
+      "id": 8,
+      "name": "Biba",
+      "slug": "Biba"
+    }
+  ],
+  "test_scenarios": [
+    {
+      "first_brand": "Polo",
+      "second_brand": "H&M",
+      "description": "Navigate from Polo to H&M brand"
+    },
+    {
+      "first_brand": "Madame",
+      "second_brand": "Mast & Harbour",
+      "description": "Navigate from Madame to Mast & Harbour brand"
+    },
+    {
+      "first_brand": "Babyhug",
+      "second_brand": "Allen Solly Junior",
+      "description": "Navigate from Babyhug to Allen Solly Junior brand"
+    }
+  ]
+}

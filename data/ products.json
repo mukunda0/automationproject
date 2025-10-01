@@ -1,0 +1,90 @@
+{
+  "search_keywords": [
+    "top",
+    "dress",
+    "jeans",
+    "shirt",
+    "tshirt",
+    "saree",
+    "men",
+    "women",
+    "kids"
+  ],
+  "product_categories": {
+    "women": [
+      "Dress",
+      "Tops",
+      "Saree"
+    ],
+    "men": [
+      "Tshirts",
+      "Jeans"
+    ],
+    "kids": [
+      "Dress",
+      "Tops & Shirts"
+    ]
+  },
+  "sample_products": [
+    {
+      "id": 1,
+      "name": "Blue Top",
+      "category": "Women > Tops",
+      "price": "Rs. 500",
+      "availability": "In Stock",
+      "condition": "New",
+      "brand": "Polo"
+    },
+    {
+      "id": 2,
+      "name": "Men Tshirt",
+      "category": "Men > Tshirts",
+      "price": "Rs. 400",
+      "availability": "In Stock",
+      "condition": "New",
+      "brand": "H&M"
+    },
+    {
+      "id": 3,
+      "name": "Sleeveless Dress",
+      "category": "Women > Dress",
+      "price": "Rs. 1000",
+      "availability": "In Stock",
+      "condition": "New",
+      "brand": "Madame"
+    },
+    {
+      "id": 4,
+      "name": "Stylish Dress",
+      "category": "Women > Dress",
+      "price": "Rs. 1500",
+      "availability": "In Stock",
+      "condition": "New",
+      "brand": "Madame"
+    },
+    {
+      "id": 5,
+      "name": "Winter Top",
+      "category": "Women > Tops",
+      "price": "Rs. 600",
+      "availability": "In Stock",
+      "condition": "New",
+      "brand": "Polo"
+    }
+  ],
+  "review_data": {
+    "name": "Test Reviewer",
+    "email": "reviewer@test.com",
+    "review": "This is an excellent product! Great quality and fast delivery. Highly recommended for everyone."
+  },
+  "quantity_tests": [
+    {
+      "quantity": 4,
+      "expected_total_multiplier": 4
+    },
+    {
+      "quantity": 10,
+      "expected_total_multiplier": 10
+    }
+  ]
+}
